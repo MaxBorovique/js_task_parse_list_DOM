@@ -1,0 +1,2 @@
+var a,t,r=document.querySelectorAll("li");function e(a){return parseInt(a.replace("$","").replace(",",""),10)}a=Array.from(r).sort(function(a,t){var r=e(a.dataset.salary);return e(t.dataset.salary)-r}),t=r[0].parentElement,parent.innerHTML="",a.forEach(function(a){return t.appendChild(a)}),Array.from(r).map(function(a){return{name:a.textContent.trim(),position:a.dataset.position,salary:e(a.dataset.salary),age:parseInt(a.dataset.age,10)}});
+//# sourceMappingURL=index.e79b8f55.js.map
